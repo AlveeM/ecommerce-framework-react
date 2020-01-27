@@ -9,4 +9,7 @@ export const addItem = item => ({
     payload: item
 });
 
-// export default toggleCartHidden;
+export const clearItemFromCart = item => ({
+    type: cartActionTypes.CLEAR_ITEM_FROM_CART,
+    payload: item
+})
